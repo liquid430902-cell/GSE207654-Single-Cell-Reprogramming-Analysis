@@ -23,22 +23,6 @@ Cell Type Annotation: Annotating clusters based on canonical marker genes (e.g.,
 
 Biological Interpretation: Conducting differential expression and Gene Ontology (GO) enrichment analysis to validate the biological states of identified clusters.  
 
-## 📁 Repository Structure  
-text  
-GSE207654-Single-Cell-Reprogramming-Analysis/  
-│  
-├── analysis_notebook.ipynb          # Main Jupyter notebook with the complete analysis pipeline  
-├── environment.yml                  # Conda environment specification for exact reproducibility  
-│
-├── data/  
-│   ├── README.md                    # Instructions for downloading raw data from GEO (GSE207654)  
-│   └── (data not included in repo)  # Raw data should be downloaded separately  
-│  
-├── results/  
-│   ├── figures/                     # Key output figures (UMAP plots, heatmaps, etc.)  
-│   └── processed_data/              # Processed AnnData objects (optional)  
-│   
-├── README.md                        # This file  
 
 ## 🚀 Quick Start
 1. Clone the Repository  
